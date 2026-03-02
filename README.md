@@ -14,9 +14,13 @@ references/
 
 ## Install
 
+Clone into your Claude Code skills directory:
+
 ```bash
-claude skill add --from Max-Bin/autoware-dev-skill
+git clone git@github.com:Max-Bin/autoware-dev-skill.git ~/.claude/skills/autoware-dev
 ```
+
+The skill is auto-discovered on next Claude Code session.
 
 ## What It Helps With
 
